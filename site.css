@@ -1,0 +1,58 @@
+﻿body {
+    text-align: center;
+    padding-top: 40px;
+    background-color: rgba(116, 106, 250, 0.5);
+    color: rgba(40,40,40,1);
+}
+
+form {
+    font-size: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: rgba(40,40,40,1);
+    text-shadow: 2px 2px 5px rgba(0, 0, 100, 0.5);
+}
+
+* {
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#loginButton, #resetButton {
+    background-color: white;
+    border: 2px outset;
+    border-color: rgba(60,40,40,0.7);
+    transition-duration: 0.3s;
+    color: rgba(60,40,40,0.7);
+    font-weight: bold;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+    #loginButton:hover, #resetButton:hover {
+        background-color: rgba(60,40,40,0.5);
+        color: white;
+    }
+
+#username, #passwd {
+    background-color: white;
+    border: 2px outset;
+    border-color: rgba(60,40,40,0.7);
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+    #username:hover, #passwd:hover {
+        background-color: rgba(60,40,40,0.5);
+    }
+
+.hiddenlbl {
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
